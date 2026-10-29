@@ -1,9 +1,9 @@
 ---
-name: arx-audit-repo
-description: Master Playbook 2 — Complete Audit & Deepening of an Existing Tool or Repo. Chains domain-modeling (GLOSSARY.md reverse-engineering), improve-codebase-architecture (Tailwind/Mermaid HTML visual report), Two-Axis code-review (mistral_review_diff + M4 3-Tier Security Audit), and pauses for candidate selection before Replace-Don't-Layer TDD refactoring. Trigger when auditing, reviewing, or refactoring an existing repository or tool.
+name: pb2
+description: "Master Playbook 2 (/pb2) — Complete Repo Audit & Deepening. Chains domain-modeling (GLOSSARY.md alignment), improve-codebase-architecture (Tailwind/Mermaid visual HTML report in %TEMP%), Two-Axis code-review (mistral_review_diff 12 Fowler Smells + M4 3-Tier Security Matrix), then pauses for candidate selection before Replace-Don't-Layer seam TDD refactoring."
 ---
 
-# ARX Master Playbook 2: Complete Repository Audit & Deepening (`arx-audit-repo`)
+# `/pb2` — ARX Master Playbook 2: Complete Repository Audit & Deepening
 
 Executes a comprehensive architectural, domain, code-smell, and security/concurrency audit on an existing repository, generating a visual HTML report and M4 remediation matrix, then **pausing for candidate selection** before mutating production logic.
 

@@ -1,9 +1,9 @@
 ---
-name: arx-new-system
-description: Master Playbook 1 — Greenfield Creation (New Process, App, or Multi-Agent System). Chains research, grill-with-docs (grilling + domain-modeling), codebase-design (Design-It-Twice), Dual-Write to-spec, vertical-slice tdd, writing-for-agents, and Two-Axis code-review. Trigger when building a new app, service, workflow, or multi-agent system.
+name: pb1
+description: "Master Playbook 1 (/pb1) — Greenfield Creation (New Process, App, or Multi-Agent System). Chains research (einstein), grill-with-docs (grilling + inline GLOSSARY.md & 3-Gate ADRs), codebase-design (Design-It-Twice), Dual-Write to-spec (docs/specs/ + GitHub Issue), vertical-slice tdd, writing-for-agents, and Two-Axis code-review."
 ---
 
-# ARX Master Playbook 1: Greenfield Creation (`arx-new-system`)
+# `/pb1` — ARX Master Playbook 1: Greenfield Creation (New Process, App, or Multi-Agent System)
 
 Orchestrates the end-to-end creation of a new process, application, or multi-agent system with **Asymmetric Autonomy**: Socratic interrogation up front, followed by 100% autonomous specification, vertical-slice TDD implementation, and Two-Axis verification once the design tree frontier is empty.
 

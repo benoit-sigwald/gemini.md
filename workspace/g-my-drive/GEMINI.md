@@ -9,9 +9,9 @@
   - **`Behavioral Profiling` (`Prisme` / `Omni` / `BP v3`):** Default `[ACTIVE LENSES: M3, M6]` (Evolutionary/Neurochemical Profiling + Epistemic Triangulation).
   - **`Legal & Fiscal Engineering` (`Saul`):** Default `[ACTIVE LENSES: M5, M6]` (Statutory/Jurisprudence Rigor + Source Triangulation).
 - **Engineering & Productivity Skills (`C:\Users\benoi\.gemini\config\skills\`):**
-  - **Master Playbooks:** `arx-new-system` (Greenfield Creation), `arx-audit-repo` (Repo Audit & Deepening), `arx-debug-app` (Autonomous 6-Phase Bug Diagnosis).
+  - **Master Playbooks (Slash Commands):** `/pb1` (`pb1`: Greenfield Creation), `/pb2` (`pb2`: Repo Audit & Deepening), `/pb3` (`pb3`: Autonomous 6-Phase Bug Diagnosis).
   - **Design & Specs:** `grilling` (`grill-me`, `grill-with-docs`), `domain-modeling`, `to-spec` (Dual-Write: `docs/specs/` + GitHub Issue), `codebase-design`, `improve-codebase-architecture`.
-  - **Implementation, Testing & Audit:** `tdd`, `code-review`, `arx-diagnose-bug`.
+  - **Implementation, Testing & Audit:** `tdd`, `code-review`.
   - **Research, Knowledge & Continuity:** `research`, `handoff`, `teach`, `writing-for-agents`.
 
 ### 2. OCI INFRASTRUCTURE & MCP GATEWAY TOPOLOGY
