@@ -1,21 +1,23 @@
 ---
 name: to-spec
-description: "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed."
+description: "Turn the current conversation into a spec and Dual-Write it to docs/specs/NNNN-slug.md and GitHub Issues (with label 'ready-for-agent'): no interview, just synthesis of what you've already discussed."
 ---
 
-This skill takes the current conversation context and codebase understanding and produces a spec. Do NOT interview the user; just synthesize what you already know.
+This skill takes the current conversation context and codebase understanding and produces a specification. Do NOT interview the user; just synthesize what you already know.
 
-The issue tracker and triage label vocabulary should have been provided to you. If not, tell the user to run `/setup-matt-pocock-skills`.
+## ARX Dual-Write Tracker Convention (Pre-Configured — Never Ask for `/setup-matt-pocock-skills`)
+
+All ARX repositories use **Dual-Write Spec Storage**:
+1. **Primary Git-Tracked Spec:** Save to `docs/specs/NNNN-slug.md` (creating `docs/specs/` lazily and incrementing `NNNN` sequentially: `0001-...`, `0002-...`).
+2. **GitHub Issue Mirror (Automatic when GitHub remote exists):** If `git remote get-url origin` points to GitHub, automatically publish the spec via `gh issue create --title "Spec NNNN: <Title>" --body-file docs/specs/NNNN-slug.md --label "ready-for-agent"` (creating the `ready-for-agent` label first if needed).
 
 ## Process
 
-1. Explore the repo to understand the current state of the codebase, if you haven't already. Use the project's domain glossary vocabulary throughout the spec, and respect any ADRs in the area you're touching.
+1. Explore the repo to understand the current state of the codebase, if you haven't already. Use the project's domain glossary vocabulary (`GLOSSARY.md`) throughout the spec, and respect any ADRs (`docs/adr/`) in the area you're touching.
 
 2. Sketch out the seams at which you're going to test the feature. Existing seams should be preferred to new ones. Use the highest seam possible. If new seams are needed, propose them at the highest point you can. The fewer seams across the codebase, the better - the ideal number is one.
 
-Check with the user that these seams match their expectations.
-
-3. Write the spec using the template below, then publish it to the project issue tracker. Apply the `ready-for-agent` triage label - no need for additional triage.
+3. Write the spec using the template below to `docs/specs/NNNN-slug.md`, and if a GitHub remote is present, publish it to GitHub Issues with the `ready-for-agent` label.
 
 <spec-template>
 
@@ -59,8 +61,8 @@ Exception: if a prototype produced a snippet that encodes a decision more precis
 
 A list of testing decisions that were made. Include:
 
-- A description of what makes a good test (only test external behavior, not implementation details)
-- Which modules will be tested
+- A description of what makes a good test (only test external behavior at public seams, not implementation details)
+- Which module seams will be tested
 - Prior art for the tests (i.e. similar types of tests in the codebase)
 
 ## Out of Scope

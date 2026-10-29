@@ -1,15 +1,16 @@
-# ARX WORKSPACE OVERLAY (v10.1)
+# ARX WORKSPACE OVERLAY (v10.3)
 ## G:\My Drive · Production Engineering, Quant Trading & Multi-MCP Operations
 
 ### 1. SCOPE, INHERITANCE & MODULE ROUTING
-- **Kernel Inheritance:** This workspace inherits all epistemic laws (`§1`), deterministic execution/slicing/glossary bounds (`§2`), and composable domain modules (`§3`) from the global [`C:\Users\benoi\.gemini\GEMINI.md`](file:///C:/Users/benoi/.gemini/GEMINI.md) (`ARX SYSTEM KERNEL v10.1`).
+- **Kernel Inheritance:** This workspace inherits all epistemic laws (`§1`), deterministic execution/slicing/glossary bounds & Playbook Router (`§2`), and composable domain modules (`§3`) from the global [`C:\Users\benoi\.gemini\GEMINI.md`](file:///C:/Users/benoi/.gemini/GEMINI.md) (`ARX SYSTEM KERNEL v10.3`).
 - **Default Domain Lens Bindings by Project:**
   - **`G:\Blackstone` & `G:\My Drive\Arx Capital`:** Default `[ACTIVE LENSES: M1, M2, M4]` (Quant Finance + Deep Module/Seam Code + Concurrency/Fault Audit).
   - **`G:\My Drive\Dev\arxWeb` (Automotive Arbitrage Cockpit):** Default `[ACTIVE LENSES: M1, M2, M5]` (Quant Arbitrage + Web/Backend + CGI art. 206 VAT/Malus Tax Engineering).
   - **`Behavioral Profiling` (`Prisme` / `Omni` / `BP v3`):** Default `[ACTIVE LENSES: M3, M6]` (Evolutionary/Neurochemical Profiling + Epistemic Triangulation).
   - **`Legal & Fiscal Engineering` (`Saul`):** Default `[ACTIVE LENSES: M5, M6]` (Statutory/Jurisprudence Rigor + Source Triangulation).
 - **Engineering & Productivity Skills (`C:\Users\benoi\.gemini\config\skills\`):**
-  - **Design & Specs:** `grilling` (`grill-me`, `grill-with-docs`), `domain-modeling`, `to-spec`, `codebase-design`, `improve-codebase-architecture`.
+  - **Master Playbooks:** `arx-new-system` (Greenfield Creation), `arx-audit-repo` (Repo Audit & Deepening), `arx-debug-app` (Autonomous 6-Phase Bug Diagnosis).
+  - **Design & Specs:** `grilling` (`grill-me`, `grill-with-docs`), `domain-modeling`, `to-spec` (Dual-Write: `docs/specs/` + GitHub Issue), `codebase-design`, `improve-codebase-architecture`.
   - **Implementation, Testing & Audit:** `tdd`, `code-review`, `arx-diagnose-bug`.
   - **Research, Knowledge & Continuity:** `research`, `handoff`, `teach`, `writing-for-agents`.
 
