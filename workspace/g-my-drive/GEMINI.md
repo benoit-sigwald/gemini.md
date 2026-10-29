@@ -1,13 +1,18 @@
-# ARX WORKSPACE OVERLAY (v10.0)
+# ARX WORKSPACE OVERLAY (v10.1)
 ## G:\My Drive · Production Engineering, Quant Trading & Multi-MCP Operations
 
 ### 1. SCOPE, INHERITANCE & MODULE ROUTING
-- **Kernel Inheritance:** This workspace inherits all epistemic laws (`§1`), deterministic execution/slicing bounds (`§2`), and composable domain modules (`§3`) from the global [`C:\Users\benoi\.gemini\GEMINI.md`](file:///C:/Users/benoi/.gemini/GEMINI.md) (`ARX SYSTEM KERNEL v10.0`).
+- **Kernel Inheritance:** This workspace inherits all epistemic laws (`§1`), deterministic execution/slicing/glossary bounds (`§2`), and composable domain modules (`§3`) from the global [`C:\Users\benoi\.gemini\GEMINI.md`](file:///C:/Users/benoi/.gemini/GEMINI.md) (`ARX SYSTEM KERNEL v10.1`).
 - **Default Domain Lens Bindings by Project:**
-  - **`G:\Blackstone` & `G:\My Drive\Arx Capital`:** Default `[ACTIVE LENSES: M1, M2, M4]` (Quant Finance + Systems Code + Concurrency/Fault Audit).
+  - **`G:\Blackstone` & `G:\My Drive\Arx Capital`:** Default `[ACTIVE LENSES: M1, M2, M4]` (Quant Finance + Deep Module/Seam Code + Concurrency/Fault Audit).
   - **`G:\My Drive\Dev\arxWeb` (Automotive Arbitrage Cockpit):** Default `[ACTIVE LENSES: M1, M2, M5]` (Quant Arbitrage + Web/Backend + CGI art. 206 VAT/Malus Tax Engineering).
   - **`Behavioral Profiling` (`Prisme` / `Omni` / `BP v3`):** Default `[ACTIVE LENSES: M3, M6]` (Evolutionary/Neurochemical Profiling + Epistemic Triangulation).
   - **`Legal & Fiscal Engineering` (`Saul`):** Default `[ACTIVE LENSES: M5, M6]` (Statutory/Jurisprudence Rigor + Source Triangulation).
+- **Engineering Discipline Skills (`C:\Users\benoi\.gemini\config\skills\`):**
+  - `arx-grill-docs`: Socratic design tree interrogation + inline `GLOSSARY.md` & 3-Gate ADR authoring (`docs/adr/`).
+  - `arx-deep-architecture`: Ousterhout/Feathers deep-module codebase survey, Deletion Test, 2-Adapter Rule, and Design-It-Twice interface comparison.
+  - `arx-diagnose-bug`: 5-phase gated bug & perf diagnosis (Red-capable <5s loop $\rightarrow$ Load-bearing minimization $\rightarrow$ 3–5 Falsifiable hypotheses $\rightarrow$ `[DEBUG-xxxx]` probes $\rightarrow$ Seam regression test).
+  - `arx-tdd-review`: Vertical-slice seam TDD + Orthogonal Two-Axis Diff Review (Axis 1 via `mistral_review_diff` + Axis 2 Spec/M4 Security Audit).
 
 ### 2. OCI INFRASTRUCTURE & MCP GATEWAY TOPOLOGY
 - **Remote MCP Gateway:** `https://arx-mcp.duckdns.org` (OCI ARM64 · Coolify · Docker · Traefik · PostgreSQL 18 + `pgvector`).
@@ -31,4 +36,5 @@
 
 ### 4. CANONICAL REPOSITORY PATHS & WORKSPACE HYGIENE
 - **`arxWeb`:** Canonical location is STRICTLY [`G:\My Drive\Dev\arxWeb`](file:///G:/My%20Drive/Dev/arxWeb) (tracked to `benoit-sigwald/arxWeb` on GitHub). Never create or look for `arxWeb` under `Trae` or temporary folders. The automotive arbitrage cockpit is permanently at [`G:\My Drive\Dev\arxWeb\auto-deals.html`](file:///G:/My%20Drive/Dev/arxWeb/auto-deals.html).
+- **`gemini.md`:** Canonical local repository is [`C:\Users\benoi\.gemini\gemini-md-repo`](file:///C:/Users/benoi/.gemini/gemini-md-repo) (tracked to `benoit-sigwald/gemini.md` on GitHub).
 - **Surgical Slicing & Offloading Enforcement:** Enforce Global Kernel `§2.1` strictly across all `G:\My Drive` and `G:\Blackstone` repositories (150-line file read cap, 30-line terminal output cap, mandatory Tier 2 `mistral` delegation for log/diff/code summaries).
