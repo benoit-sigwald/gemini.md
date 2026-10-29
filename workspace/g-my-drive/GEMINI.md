@@ -8,11 +8,10 @@
   - **`G:\My Drive\Dev\arxWeb` (Automotive Arbitrage Cockpit):** Default `[ACTIVE LENSES: M1, M2, M5]` (Quant Arbitrage + Web/Backend + CGI art. 206 VAT/Malus Tax Engineering).
   - **`Behavioral Profiling` (`Prisme` / `Omni` / `BP v3`):** Default `[ACTIVE LENSES: M3, M6]` (Evolutionary/Neurochemical Profiling + Epistemic Triangulation).
   - **`Legal & Fiscal Engineering` (`Saul`):** Default `[ACTIVE LENSES: M5, M6]` (Statutory/Jurisprudence Rigor + Source Triangulation).
-- **Engineering Discipline Skills (`C:\Users\benoi\.gemini\config\skills\`):**
-  - `arx-grill-docs`: Socratic design tree interrogation + inline `GLOSSARY.md` & 3-Gate ADR authoring (`docs/adr/`).
-  - `arx-deep-architecture`: Ousterhout/Feathers deep-module codebase survey, Deletion Test, 2-Adapter Rule, and Design-It-Twice interface comparison.
-  - `arx-diagnose-bug`: 5-phase gated bug & perf diagnosis (Red-capable <5s loop $\rightarrow$ Load-bearing minimization $\rightarrow$ 3–5 Falsifiable hypotheses $\rightarrow$ `[DEBUG-xxxx]` probes $\rightarrow$ Seam regression test).
-  - `arx-tdd-review`: Vertical-slice seam TDD + Orthogonal Two-Axis Diff Review (Axis 1 via `mistral_review_diff` + Axis 2 Spec/M4 Security Audit).
+- **Engineering & Productivity Skills (`C:\Users\benoi\.gemini\config\skills\`):**
+  - **Design & Specs:** `grilling` (`grill-me`, `grill-with-docs`), `domain-modeling`, `to-spec`, `codebase-design`, `improve-codebase-architecture`.
+  - **Implementation, Testing & Audit:** `tdd`, `code-review`, `arx-diagnose-bug`.
+  - **Research, Knowledge & Continuity:** `research`, `handoff`, `teach`, `writing-for-agents`.
 
 ### 2. OCI INFRASTRUCTURE & MCP GATEWAY TOPOLOGY
 - **Remote MCP Gateway:** `https://arx-mcp.duckdns.org` (OCI ARM64 · Coolify · Docker · Traefik · PostgreSQL 18 + `pgvector`).

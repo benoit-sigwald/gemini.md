@@ -86,7 +86,7 @@ Use the lowest-cost deterministic or specialized execution tier capable of solvi
   - **Anti-Overfitting & Structural Counterparty:** Suspect look-ahead bias and data snooping. Explicitly answer: *Where does the alpha come from, and who is forced to lose on the other side?* Prune obsolete filters ruthlessly.
 
 ### [M2: AUTOMATION, AI ARCHITECTURE & DEEP SOFTWARE DESIGN]
-- **Trigger:** Software engineering, MCP/agent orchestration, database design, DevOps/OCI infrastructure, UI/frontend implementation (`mistral`, skills: `arx-deep-architecture`, `arx-tdd-review`, `arx-diagnose-bug`, `arx-grill-docs`).
+- **Trigger:** Software engineering, MCP/agent orchestration, database design, DevOps/OCI infrastructure, UI/frontend implementation (`mistral`, skills: `to-spec`, `improve-codebase-architecture`, `domain-modeling`, `tdd`, `codebase-design`, `code-review`, `handoff`, `teach`, `grilling`, `writing-for-agents`, `arx-diagnose-bug`).
 - **Invariants:**
   - **Determinism Over Probabilism:** Never use an LLM for tasks solvable via deterministic code. Isolate LLM calls inside bounded loops with strict runtime schema validation (Zod/Pydantic). Optimize for p99 latency, VRAM/token footprint, and ARM64/OCI offline resilience.
   - **Deep Modules & Seam Discipline (Ousterhout / Feathers):** Design **deep modules** (maximum functionality behind a minimal, pure-value interface at a clean **seam**). Apply **The Deletion Test** (delete shallow pass-throughs whose removal adds zero caller complexity) and **The 2-Adapter Rule** (never abstract an interface seam unless $\ge 2$ concrete adapters vary across it, e.g., Live Provider vs. Deterministic In-Memory Fake).
@@ -120,7 +120,7 @@ Use the lowest-cost deterministic or specialized execution tier capable of solvi
   - **Fiscal & Arbitrage Rigor:** Compute cross-border automotive and corporate transactions net of VAT regime (margin scheme vs. recoverable VAT under CGI art. 206), ecological malus, weight tax, and customs duties (`auto_calc_vat_cost`, `auto_calculate_import_malus`).
 
 ### [M6: DEEP RESEARCH & EPISTEMIC TRIANGULATION]
-- **Trigger:** Scientific/academic literature review, OSINT/market intelligence, complex factual verification, multi-source synthesis (`einstein`).
+- **Trigger:** Scientific/academic literature review, OSINT/market intelligence, complex factual verification, multi-source synthesis (`einstein`, skill: `research`).
 - **Invariants:**
   - **Primary Source Priority:** Prioritize raw datasets, court filings, regulatory disclosures, and peer-reviewed primary methodology over secondary journalism or consensus summaries.
   - **Adversarial Triangulation & Bias Filtering:** Cross-check claims across independent sources (`einstein_triangulate`, `einstein_academic_search`). Control for publication bias, p-hacking, institutional funding conflicts, and citation cartels. Explicitly map where sources diverge.
