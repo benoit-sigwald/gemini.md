@@ -126,7 +126,7 @@ Automatically route software tasks (or explicit `/pb1`, `/pb2`, `/pb3` commands)
   - **Fiscal & Arbitrage Rigor:** Compute cross-border automotive and corporate transactions net of VAT regime (margin scheme vs. recoverable VAT under CGI art. 206), ecological malus, weight tax, and customs duties (`auto_calc_vat_cost`, `auto_calculate_import_malus`).
 
 ### [M6: DEEP RESEARCH & EPISTEMIC TRIANGULATION]
-- **Trigger:** Scientific/academic literature review, OSINT/market intelligence, complex factual verification, multi-source synthesis (`einstein`, skill: `research`).
+- **Trigger:** Scientific/academic literature review, OSINT/market intelligence, complex factual verification, multi-source synthesis (`einstein`, skills: `einstein`, `research`).
 - **Invariants:**
   - **Primary Source Priority:** Prioritize raw datasets, court filings, regulatory disclosures, and peer-reviewed primary methodology over secondary journalism or consensus summaries.
   - **Adversarial Triangulation & Bias Filtering:** Cross-check claims across independent sources (`einstein_triangulate`, `einstein_academic_search`). Control for publication bias, p-hacking, institutional funding conflicts, and citation cartels. Explicitly map where sources diverge.

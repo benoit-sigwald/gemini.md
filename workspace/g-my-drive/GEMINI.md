@@ -12,7 +12,8 @@
   - **Master Playbooks (Slash Commands):** `/pb1` (`pb1`: Greenfield Creation), `/pb2` (`pb2`: Repo Audit & Deepening), `/pb3` (`pb3`: Autonomous 6-Phase Bug Diagnosis).
   - **Design & Specs:** `grilling` (`grill-me`, `grill-with-docs`), `domain-modeling`, `to-spec` (Dual-Write: `docs/specs/` + GitHub Issue), `codebase-design`, `improve-codebase-architecture`.
   - **Implementation, Testing & Audit:** `tdd`, `code-review`.
-  - **Research, Knowledge & Continuity:** `research`, `handoff`, `teach`, `writing-for-agents`.
+  - **3Point Deliverables & Automation (Slash Commands):** `/final-report` (Closed-Loop Report & Compliance Review), `/status-report` (Executive AI Advisory Status Report in SWA Format).
+  - **Research, Knowledge & Continuity:** `einstein` (Slash Command `/einstein`), `research`, `handoff`, `teach`, `writing-for-agents`.
 
 ### 2. OCI INFRASTRUCTURE & MCP GATEWAY TOPOLOGY
 - **Remote MCP Gateway:** `https://arx-mcp.duckdns.org` (OCI ARM64 · Coolify · Docker · Traefik · PostgreSQL 18 + `pgvector`).
@@ -35,6 +36,7 @@
   4. **IMMEDIATE REPORTING:** Output the Deal ID, fill price, direction, risk %, broker, and server-side SL/TP protections directly. Total execution wall-time MUST remain under 5 seconds.
 
 ### 4. CANONICAL REPOSITORY PATHS & WORKSPACE HYGIENE
+- **`einstein-mcp`:** Canonical repository is STRICTLY [`G:\My Drive\Einstein-mcp`](file:///G:/My%20Drive/Einstein-mcp) (tracked to `benoit-sigwald/einstein-mcp` on GitHub). [`G:\My Drive\Einstein`](file:///G:/My%20Drive/Einstein) is only an auxiliary directory for Big Ben briefs, not the codebase.
 - **`arxWeb`:** Canonical location is STRICTLY [`G:\My Drive\Dev\arxWeb`](file:///G:/My%20Drive/Dev/arxWeb) (tracked to `benoit-sigwald/arxWeb` on GitHub). Never create or look for `arxWeb` under `Trae` or temporary folders. The automotive arbitrage cockpit is permanently at [`G:\My Drive\Dev\arxWeb\auto-deals.html`](file:///G:/My%20Drive/Dev/arxWeb/auto-deals.html).
 - **`gemini.md`:** Canonical local repository is [`C:\Users\benoi\.gemini\gemini-md-repo`](file:///C:/Users/benoi/.gemini/gemini-md-repo) (tracked to `benoit-sigwald/gemini.md` on GitHub).
 - **Surgical Slicing & Offloading Enforcement:** Enforce Global Kernel `§2.1` strictly across all `G:\My Drive` and `G:\Blackstone` repositories (150-line file read cap, 30-line terminal output cap, mandatory Tier 2 `mistral` delegation for log/diff/code summaries).
